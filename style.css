@@ -1,0 +1,51 @@
+body {
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bkg {
+    background-image: url(images/silver-bkg.jpg);
+    background-size: cover;
+}
+
+.wealth-bkg {
+    background-image: url(images/wealth-bkg.jpg);
+    background-size: cover;
+}
+
+.fame-bkg {
+    background-image: url(images/fame-bkg.jpg);
+    background-size: cover;
+}
+
+.knowledge-bkg {
+    background-image: url(images/knowledge-bkg.jpg);
+    background-size: cover;
+}
+
+
+.wealth-text {
+    color: white;
+}
+
+.button-green {
+    font-size: large;
+    color: rgb(27, 95, 21);
+}
+
+.button-red {
+    font-size: large;
+    color: rgb(98, 33, 33);
+}

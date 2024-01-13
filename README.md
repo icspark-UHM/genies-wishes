@@ -1,8 +1,8 @@
-# get-to-know-me
+# Genie's Wishes
 
 ## Objective
 
-Use HTML Links, Images, Headers and correctly specify the file paths to travel around the world.
+Use HTML Links, Images, Headers and correctly specify the file paths to develop a choose-your-destiny story.
 
 ## Prerequisites
 

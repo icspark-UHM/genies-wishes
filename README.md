@@ -36,21 +36,24 @@ __File Path__: Description of the location of the file
 
 ## Instructions
 
-_Level of Difficulty: Easy_
+_Level of Difficulty: Easy/Medium_
 
 This is an interactive story-telling platform. The primary purpose of the site is to engage users in a narrative where their choices determine the direction and outcome of the story.
 
 ### Before Starting
 
+If you are doing this for the first time, it is recommended to download the ``images`` folder from this respository to your local files. This will provide the necessary backgrounds and images to get you started.
+
 You may use the same wishes and scenarios created in the sample, however you are encouraged to come up with your own. Create 3 wishes, and 3 branching scenarios that could happen for each—meaning 9 branching scenarios total.
 
 For each wish and branching scenario, find a special background photo and relating image. These must be in the .jpg format for best compatability. 
 
-Find a picture of a genie and a lamp (preferably with transparent background).
+_Tip: Images with the .png extension (transparent backgrounds) look nicer against backgrounds!_
 
-### Setting Up Your Environment in Visual Studio Code
+### Setting Up Your Repl in Replit
 
-After opening VS Code, create a new file called `style.css` and paste this code:
+- Import (copy/paste or drag) the ``images`` folder into the Repl project
+- Paste this code into the style.css file:
 
 ```angular2html
 body {
@@ -71,16 +74,15 @@ img {
 }
 ```
 
-To preview your site, right click on the tab of the file, then click on "Show in Browser". Remember to _save_ your project in VS Code and refresh your browser in order to see changes you make.
-
-Create 3 new files called `wish1.html`, `wish2.html`, and `wish3.html`.
+- The ``Webview`` panel to the right of your code will allow you to preview your site. Remember to hit the refresh button to see new changes. You can also pop out your site into a new tab, locally hosted on your browser.
+- Create 3 new files called `wish1.html`, `wish2.html`, and `wish3.html`.
 
 ### Homepage
 
-1. Create a new file called `index.html`
-2. Copy and paste this boilerplate code:
+1. Navigate to the file called `index.html`, which will be our "homepage". It should have boilerplate code to start off with.
+2. If not, copy and paste this boilerplate code:
 
-```css
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,9 +106,9 @@ Create 3 new files called `wish1.html`, `wish2.html`, and `wish3.html`.
 6. Use a ``img`` element to insert a picture of a genie
 7. Use a ``h2`` element containing "Choose a lamp to reveal your fate!"
 8. Create a ``<div>`` element with the class name "container"
-   9. Inside the container `<div>`, create an `<a>` element with an href attribute pointing to wish1.html. This creates a clickable link to the wish1.html page.
-   9. Inside the `<a>` tag, add an `<img>` tag. Set its src attribute to the image path, and adjust its width if needed.
-   10. Repeat that step for the second and third lamps, changing the `href` of each of those respectively.
+9. Inside the container `<div>`, create an `<a>` element with an href attribute pointing to wish1.html. This creates a clickable link to the wish1.html page.
+        - Inside the `<a>` tag, add an `<img>` tag. Set its src attribute to the image path, and adjust its width if needed.
+        -  Repeat that step for the second and third lamps, changing the `href` of each of those respectively.
 
 ### Wish Page
 
